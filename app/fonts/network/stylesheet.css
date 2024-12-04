@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Network';
+  src: url('NetworkFreeVersion.eot');
+  src: url('NetworkFreeVersion.eot?#iefix') format('embedded-opentype'),
+       url('NetworkFreeVersion.woff2') format('woff2'),
+       url('NetworkFreeVersion.woff') format('woff'),
+       url('NetworkFreeVersion.ttf') format('truetype'),
+       url('NetworkFreeVersion.svg#NetworkFreeVersion') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

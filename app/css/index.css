@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Rodano';
+    src:url('./../fonts/rodano/Rodano.woff') format('woff'),
+        url('./../fonts/rodano/Rodano.woff2') format('woff2'),
+        url('./../fonts/rodano/Rodano.svg#Rodano') format('svg'),
+        url('./../fonts/rodano/Rodano.eot'),
+        url('./../fonts/rodano/Rodano.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/rodano/Rodano.otf') format('truetype');
+  
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'Corbel';
+    src:url('./../fonts/corbel/Corbel.woff') format('woff'),
+        url('./../fonts/corbel/Corbel.woff2') format('woff2'),
+        url('./../fonts/corbel/Corbel.svg#Corbel') format('svg'),
+        url('./../fonts/corbel/Corbel.eot'),
+        url('./../fonts/corbel/Corbel.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/corbel/Corbel.ttf') format('truetype');
+  
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'Corbel-Bold';
+    src:url('./../fonts/corbel/Corbel-Bold.woff') format('woff'),
+        url('./../fonts/corbel/Corbel-Bold.woff2') format('woff2'),
+        url('./../fonts/corbel/Corbel-Bold.svg#Corbel-Bold') format('svg'),
+        url('./../fonts/corbel/Corbel-Bold.eot'),
+        url('./../fonts/corbel/Corbel-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/corbel/Corbel-Bold.ttf') format('truetype');
+  
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'NetworkFreeVersion';
+    src:url('./../fonts/network/NetworkFreeVersion.woff') format('woff'),
+        url('./../fonts/network/NetworkFreeVersion.woff2') format('woff2'),
+        url('./../fonts/network/NetworkFreeVersion.svg#NetworkFreeVersion') format('svg'),
+        url('./../fonts/network/NetworkFreeVersion.eot'),
+        url('./../fonts/network/NetworkFreeVersion.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/network/NetworkFreeVersion.ttf') format('truetype');
+  
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    color: #fff;
+    font-family: 'Corbel';
+    margin: 0;
+    padding: 0;
+    background-image: url('./../imagens/bg-2024.webp');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+    height: 60px;
+    margin-left: 36px;
+}
+
+header ul {
+    list-style: none;
+    margin-right: 36px;
+}
+
+header ul li a {
+    font-family: 'Corbel-Bold';
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 24px !important;
+    color: #4d2600!important;
+    background-color: #d99c6b !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    min-height: 48px;
+    height: auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+header ul li a:hover {
+    color: #FFF !important;
+    background-color: #0d7153 !important;
+    transition: all .3s ease;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main form label,
+main form input[type="text"],
+main p {
+    font-size: 20px;
+}
+
+main h1 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #D99C6B;
+    font-family: 'Rodano';
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    float: left;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main h1 span {
+    color: #FFF;
+    letter-spacing: 1px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+main form {
+    border: 1px solid #51443B;
+    border-radius: 5px;
+    padding: 32px 32px 32px 180px;
+    background: url(./../imagens/bg-info.webp);
+    background-repeat: no-repeat;
+    background-position: center left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Corbel-Bold';
+    text-transform: uppercase;
+}
+
+main form input[type="text"] {
+    width: 250px;
+    height: 30px;
+    padding: 8px 12px 8px 12px;
+    background: transparent;
+    border: 1px solid #FFB77D;
+    border-radius: 5px !important;
+    outline: none;
+    margin-left: 0;
+    margin-right: 12px;
+    color: #fff !important;
+    font-family: 'Corbel';
+    font-size: 16px;
+}
+
+button {
+    font-family: 'Corbel-Bold';
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 24px !important;
+    color: #4d2600!important;
+    background-color: #d99c6b !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    min-height: 48px;
+    height: auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all .3s ease;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #0d7053;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+p {
+    font-family: 'Corbel';
+    float: left;
+}
+
+p strong {
+    float: right;
+    width: auto;
+    margin-left: 12px;
+    font-family: 'Corbel-Bold';
+    font-weight: 700;
+    color: #d99c6b;
+}
+
+@media (max-width: 768px) {
+    header img {
+        height: 50px;
+    }
+
+    header ul li a {
+        font-size: 22px;
+        white-space: nowrap;
+    }
+
+    main {
+        margin: 0 24px;
+        height: auto;
+        padding: 180px 0px;
+    }
+
+    main h1 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    main form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 150px 32px 32px;
+        background-position: top left;
+    }
+
+    main form label {
+        width: 100%;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    main form input[type="text"] {
+        margin: 6px 0px 18px;
+        padding: 5% 0% 5% 4%;
+        width: 96%;
+    }
+
+    main form button {
+        width: 100%;
+    }
+
+    main p {
+        text-align: center;
+    }
+
+    main p strong {
+        width: 100%;
+        text-align: center;
+    }
+}

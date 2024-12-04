@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Rodano';
+  src:url('Rodano.woff') format('woff'),
+      url('Rodano.woff2') format('woff2'),
+      url('Rodano.svg#Rodano') format('svg'),
+      url('Rodano.eot'),
+      url('Rodano.eot?#iefix') format('embedded-opentype'),
+      url('Rodano.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

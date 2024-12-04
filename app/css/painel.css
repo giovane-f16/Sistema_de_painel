@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Rodano';
+    src:url('./../fonts/rodano/Rodano.woff') format('woff'),
+        url('./../fonts/rodano/Rodano.woff2') format('woff2'),
+        url('./../fonts/rodano/Rodano.svg#Rodano') format('svg'),
+        url('./../fonts/rodano/Rodano.eot'),
+        url('./../fonts/rodano/Rodano.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/rodano/Rodano.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel';
+    src:url('./../fonts/corbel/Corbel.woff') format('woff'),
+        url('./../fonts/corbel/Corbel.woff2') format('woff2'),
+        url('./../fonts/corbel/Corbel.svg#Corbel') format('svg'),
+        url('./../fonts/corbel/Corbel.eot'),
+        url('./../fonts/corbel/Corbel.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/corbel/Corbel.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Corbel-Bold';
+    src:url('./../fonts/corbel/Corbel-Bold.woff') format('woff'),
+        url('./../fonts/corbel/Corbel-Bold.woff2') format('woff2'),
+        url('./../fonts/corbel/Corbel-Bold.svg#Corbel-Bold') format('svg'),
+        url('./../fonts/corbel/Corbel-Bold.eot'),
+        url('./../fonts/corbel/Corbel-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/corbel/Corbel-Bold.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NetworkFreeVersion';
+    src:url('./../fonts/network/NetworkFreeVersion.woff') format('woff'),
+        url('./../fonts/network/NetworkFreeVersion.woff2') format('woff2'),
+        url('./../fonts/network/NetworkFreeVersion.svg#NetworkFreeVersion') format('svg'),
+        url('./../fonts/network/NetworkFreeVersion.eot'),
+        url('./../fonts/network/NetworkFreeVersion.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/network/NetworkFreeVersion.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    color: #fff;
+    font-family: 'Corbel';
+    margin: 0;
+    padding: 0;
+    background-image: url('./../imagens/bg-2024.webp');
+    background-size: contain;
+    background-repeat: repeat;
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Rodano';
+    color: #D99C6B;
+    font-size: 10vw;
+    text-align: center;
+}

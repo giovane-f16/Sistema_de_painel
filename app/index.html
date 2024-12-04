@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo-trofeu-mesa-redonda.webp" type="image/x-icon">
+    <title>Sistema de Painel</title>
+
+    <link rel="stylesheet" href="css/index.css?ver=20241018">
+
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo-trofeu-mesa-redonda.webp" alt="Logo Troféu Mesa Redonda 2024">
+		<ul>
+			<li>
+				<a href="painel.html" target="_blank">Acessar Painel</a>
+			</li>
+		</ul>
+    </header>
+
+	<main>
+        <h1><span>Sistema de Painel</span> Troféu Mesa Redonda 2024</h1>
+        <form action="src/post.php"  method="post">
+            <label>Cadastrar pessoa: <input type="text" name="nome_usuario" id="login" maxlength="100" placeholder="Nome"></label>
+            <button type="submit">Atualizar</button>
+        </form>
+		<p>Pessoa cadastrada no momento: <strong id="usuario"></strong></p>
+    </main>
+
+    <footer></footer>
+</body>
+
+<script src="javascript/jquery.min.js"></script>
+<script src="javascript/script.js"></script>
+
+</html>
